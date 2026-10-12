@@ -19,11 +19,11 @@
 ## 🖼️ Results
 
 <p align="center">
-  <img src="results/result_1.png" alt="An alien planet with strange vegetation and creatures" width="30%">
+  <img src="result_1.png" alt="An alien planet with strange vegetation and creatures" width="30%">
   &nbsp;
-  <img src="results/result_2.png" alt="A castle on a cliff at sunset, fantasy painting" width="30%">
+  <img src="result_2.png" alt="A castle on a cliff at sunset, fantasy painting" width="30%">
   &nbsp;
-  <img src="results/result_3.png" alt="A futuristic city at night with neon lights" width="30%">
+  <img src="result_3.png" alt="A futuristic city at night with neon lights" width="30%">
 </p>
 
 1. *"An alien planet with strange vegetation and creatures"*
@@ -51,7 +51,7 @@ All images were generated with `exclude = "realistic"` and `extras = "surreal, c
 1. Click the **Open in Colab** badge above.
 2. Go to **Runtime → Change runtime type** and select a **GPU**.
 3. Click **Runtime → Run all**.
-4. The generated images appear in the notebook and are saved in the `results/` folder.
+4. The generated images appear in the notebook and are saved in the Colab `results/` folder.
 
 > [!NOTE]
 > A GPU is required. The first run also downloads the CLIP and VQGAN models, so it takes a few minutes.
@@ -78,7 +78,9 @@ All settings are in the **Settings** cell of the notebook.
 
 ```
 ├── image_generation_clip_vqgan.ipynb   # the full project (run it in Colab)
-├── results/                            # generated images
+├── result_1.png                        # generated images
+├── result_2.png
+├── result_3.png
 ├── LICENSE
 └── README.md
 ```
